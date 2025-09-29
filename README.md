@@ -2,26 +2,107 @@
 
 
 
-A simple Flask web app to create and delete personal notes.
+A simple Flask web app to create, edit, and delete personal notes.  
+
+Originally built using a JSON file for storage, now upgraded to use \*\*SQLite\*\* for more reliable data management.
 
 
 
-\## Features
+\## ✨ Features
 
-* Add and delete notes
-* Stores data in a local JSON file
+\- Add new notes
 
+\- Edit existing notes
 
+\- Delete notes
 
-\## Setup
-
-1. Clone the repo: git clone https://github.com/Jayz-GR/notes-app.git
-2. Install dependencies: pip install flask
-3. Run the app: python app.py
+\- Persistent storage with SQLite database
 
 
 
-\## Screenshot
+\## 🛠️ Tech Stack
 
-!\[screenshot](Screenshot-notes\_app.png)
+\- Python 3
+
+\- Flask
+
+\- Flask-SQLAlchemy
+
+\- HTML / CSS
+
+
+
+\## 🚀 Setup
+
+
+
+1\. Clone the repository using cmd/terminal
+
+
+
+&nbsp;	git clone https://github.com/Jayz-GR/notes-app.git
+
+&nbsp;	cd notes-app
+
+
+
+2\. Create a virtual environment (recommended)
+
+
+
+&nbsp;	python -m venv venv
+
+&nbsp;	source venv/bin/activate      # macOS/Linux
+
+&nbsp;	venv\\Scripts\\activate         # Windows
+
+
+
+3\. Install dependencies
+
+
+
+&nbsp;	pip install -r requirements.txt
+
+
+
+4\. Run the app
+
+
+
+&nbsp;	python app.py
+
+
+
+Visit http://127.0.0.1:5000/ in your browser.
+
+
+
+\## 🗂️ Project Structure
+
+
+
+notes\_app/
+
+├─ app.py
+
+├─ requirements.txt
+
+├─ templates/
+
+│  ├─ index.html
+
+│  └─ edit.html
+
+└─ static/
+
+&nbsp;  └─ style.css
+
+
+
+!\[Notes App Screenshot](Screenshot.png)
+
+
+
+
 
