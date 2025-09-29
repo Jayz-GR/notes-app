@@ -23,5 +23,5 @@ A simple Flask web app to create and delete personal notes.
 
 \## Screenshot
 
-!\[screenshot](screenshot.png)
+!\[screenshot](Screenshot-notes\_app.png)
 
